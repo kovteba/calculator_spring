@@ -1,1 +1,1 @@
-![Иллюстрация к проекту](https://github.com/kovteba/calculator_spring/raw/master/image.png)
+![Иллюстрация к проекту](https://github.com/kovteba/calculator_spring/blob/master/calculator.jpg)
