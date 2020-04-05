@@ -1,0 +1,1 @@
+![Иллюстрация к проекту](https://github.com/kovteba/calculator_spring/raw/master/image.png)
