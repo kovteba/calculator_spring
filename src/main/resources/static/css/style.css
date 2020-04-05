@@ -1,0 +1,37 @@
+.button{
+    width: 90%;
+    height: 35px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.button:hover:after {
+    box-shadow: 0 0 0px rgba(0,0,0,0);
+}
+
+.value{
+    /*margin: 5px 15px;*/
+}
+
+.calculator{
+    width: 350px;
+    background: #808e92;
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.inputValue, .resultValue{
+    height: 35px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.result{
+    margin: 10px auto;
+}
+
+
+
+
