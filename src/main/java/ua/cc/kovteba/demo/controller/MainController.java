@@ -21,26 +21,6 @@ public class MainController {
 
     @RequestMapping("/")
     public String startPage(Model model) {
-
-        System.out.println("Start page");
-
-//        inputValue = String.valueOf(model.getAttribute("inputValue"));
-//        result = String.valueOf(model.getAttribute("result"));
-//
-//        System.out.println(inputValue);
-//        System.out.println(result);
-//        if (inputValue.equals("null")) {
-//            model.addAttribute("inputValue", "");
-//        } else {
-//            model.addAttribute("inputValue", inputValue);
-//        }
-//
-//        if (result.equals("null")) {
-//            model.addAttribute("result", "");
-//        } else {
-//            model.addAttribute("result", result);
-//        }
-
         model.addAttribute("inputValue", "");
         model.addAttribute("result", "");
         return "index";
@@ -57,19 +37,11 @@ public class MainController {
             e.printStackTrace();
             result = "Incorrect string";
         }
-        System.out.println("REsult : " + result);
-
-
-//        model.addAttribute("inputValue", inputValue);
-//        model.addAttribute("result", result);
 
         redirectAttributes.addFlashAttribute("inputValue", inputValue);
         redirectAttributes.addFlashAttribute("result", result);
 
-
-//        return "index";
         return "redirect:/indexRedirect";
-//        return startPage(model, inputValue, result);
     }
 
     @RequestMapping("/indexRedirect")
